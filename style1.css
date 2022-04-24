@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Nunito:wght@200;300;400&display=swap');
+/*font-family: 'Calistoga', cursive;
+font-family: 'Nunito', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    text-decoration: none;   
+}
+
+body{
+    background-image: url(imagens/spotify\ 300.png);
+    font-family: 'Nunito', sans-serif;
+}
+.logo{
+    width: 8em;
+    margin-left:-48em;
+}
+.moldura{
+    border:1px solid hsla(27, 50%, 47%, 0.384);
+}
+.titulo{
+    margin-top: -4.5em;
+    font-family: 'Calistoga', sans-serif;
+    color: #9F4403;
+    margin-left: 8em;
+}
+.texto{
+    background-color: #CE884E38;
+    width: 60em;
+    height: 9em;
+    margin-left: 15em;
+    margin-top: -2.6em;
+    display: flex;
+    align-items: flex-end;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1f1e1e;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+  
+.cabecalho-menu-item{
+display: flex;
+flex-direction: column;
+color: #1f1e1e;
+}
+
+.insta-spotify{
+    width: 30px;
+}
+
+.icones{
+    width: 30px;
+    display: flex;
+    margin-left: em;
+}
+
+.thumb{
+    margin-left: 5em;
+    margin-top: 5em;
+    width: 9.5em;
+    display: flex;
+    justify-content: center;
+}
+.thumb1{
+    border-radius: 50%;
+}
+
+.podcast{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.opiniao{
+    margin-top: 45px;
+    display: flex;
+  justify-content: center;
+}
+
+.texto-gentileza{
+    background-color: #CE884E38;
+    width: 60em;
+    height: 11em;
+    margin-left: 15em;
+    margin-top: -2.6em;
+    display: flex;
+    align-items: flex-end;
+}
+

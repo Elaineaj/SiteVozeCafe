@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Nunito:wght@200;300;400&display=swap');
+/*font-family: 'Calistoga', cursive;
+font-family: 'Nunito', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    text-decoration: none;   
+}
+
+body{
+    background-image: url(imagens/spotify\ 300.png);
+    font-family: 'Nunito', sans-serif;
+}
+.logo{
+    width: 8em;
+    margin-left:-48em;
+}
+.moldura{
+    border:1px solid hsla(27, 50%, 47%, 0.384);
+}
+
+.textos{
+    margin-top: 2%;
+    width: 26%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.textos-titulo{
+    margin-bottom: 3px;
+    font-family: 'Calistoga', sans-serif;
+    color: #1f1e1e;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1f1e1e;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+  
+.cabecalho-menu-item{
+display: flex;
+flex-direction: column;
+color: #1f1e1e;
+}
+
+.insta-spotify{
+    width: 30px;
+}
+
+.icones{
+    width: 30px;
+    display: flex;
+    margin-left: em;
+}
+
+.talso{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #1f1e1e;
+    margin-left: 1em;
+}
+.elaine{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #1f1e1e;
+    margin-left: 1em;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 17em;
+    margin-left: 12em;
+    color: #1f1e1e;
+}
+
+.celular{
+    margin-left: 50%;
+    transform: rotate(-5deg);
+    margin-top: -34%;
+}
+
+.sugestao{
+    margin-left: 10em;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 17em;
+    margin-left: 12em;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #131111 ;
+    width: 8em;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #CE884E;
+    height: 2em;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px #1f1e1e;
+}
+
+audio{
+    margin-top: -4em;
+    display: flex;
+    margin-left: 2em;
+}
+
+.texto2{
+  margin-top: 25px;
+  width: 18em;
+  margin-left: 3em;
+}
